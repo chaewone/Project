@@ -1,3 +1,13 @@
 from django.shortcuts import render
 
-# Create your views here.
+def join(request):
+    pass
+
+def login(request):
+    pass
+
+def logout(request):
+    pass
+
+def home(request):
+    return render(request, 'header.html')
